@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template: auto / repeat(4, 22vw);
+  grid-gap: 2em;
+  justify-content: space-around;
+}
+
+h1 {
+  background-color: #ff4081;
+  color: #ffffff;
+  padding: 0.5em 1em;
+}

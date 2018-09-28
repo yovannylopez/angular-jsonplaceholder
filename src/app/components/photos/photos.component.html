@@ -1,0 +1,11 @@
+<h1>Photos</h1>
+<div class="container">
+  <mat-card class="example-card" *ngFor="let photo of photos">
+    <img mat-card-image src="{{photo.thumbnailUrl}}">
+    <mat-card-content>
+      <p>
+        {{photo.title}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
