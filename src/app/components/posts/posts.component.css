@@ -18,6 +18,7 @@ h1 {
   /*espacio entre elementos */
   justify-content: space-around;
   /* Distribuir el contenido alrededor*/
+  width: 100vw;
 }
 
 @media (max-width: 420px) {
